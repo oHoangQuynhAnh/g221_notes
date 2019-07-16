@@ -1,11 +1,11 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 
-import Bar from './index'
+import App from '../index'
 
-describe('<Bar>', () => {
+describe('<App>', () => {
   it('should render and match the snapshot', () => {
-    const { container } = render(<Bar>text</Bar>)
+    const { container } = render(<App />)
     expect(container.firstChild).toMatchSnapshot()
   })
 })
