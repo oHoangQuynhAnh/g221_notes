@@ -1,6 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App> should render and match the snapshot 1`] = `
+.c1 {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+}
+
+.c2 {
+  grid-column-start: 3;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c3 {
+  margin-top: 60px;
+}
+
 <div
   class="sc-ifAKCX eidENd"
 >
