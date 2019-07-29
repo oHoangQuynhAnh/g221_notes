@@ -1,7 +1,8 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch } from 'react-router-dom'
 
 import routes from '../../routes'
+import DefaultLayout from '../../layouts/DefaultLayout'
 import HomePage from '../HomePage'
 import LoginPage from '../LoginPage'
 import DummyPage from '../DummyPage'
@@ -10,9 +11,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path={routes.home} component={HomePage} />
-        <Route path={routes.login} component={LoginPage} />
-        <Route path={routes.dummy} component={DummyPage} />
+        <DefaultLayout exact path={routes.home} component={HomePage} />
+        <DefaultLayout path={routes.login} component={LoginPage} />
+        <DefaultLayout path={routes.dummy} component={DummyPage} />
       </Switch>
     </BrowserRouter>
   )
