@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPage /> should render and match the snapshot 1`] = `
+.c1 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.c2 {
+  float: left;
+}
+
+.c0 {
+  margin: auto;
+  margin-top: 2em;
+  font-size: 1.25em;
+  display: block;
+}
+
+<div
+  class="LoginDiv"
+>
+  <div>
+    <button
+      class="MuiButtonBase-root MuiButton-root c0 MuiButton-outlined"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <i
+          aria-hidden="true"
+          class="fa fa-github"
+        />
+         Login with github
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <hr />
+    <div
+      class="MuiFormControl-root c1"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+          data-shrink="false"
+          for="email-input"
+        >
+          Email Address
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+        >
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-77 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-78"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input"
+            id="email-input"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <hr />
+      <div
+        class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+          data-shrink="false"
+        >
+          Password
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+        >
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root-77 MuiOutlinedInput-notchedOutline"
+            style="padding-left: 8px;"
+          >
+            <legend
+              class="PrivateNotchedOutline-legend-78"
+              style="width: 0.01px;"
+            >
+              <span>
+                ​
+              </span>
+            </legend>
+          </fieldset>
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input"
+            type="password"
+            value=""
+          />
+        </div>
+      </div>
+      <hr />
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="javascript:;"
+            >
+              Create new account
+            </a>
+          </p>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root c2 MuiButton-outlined"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Log in
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
