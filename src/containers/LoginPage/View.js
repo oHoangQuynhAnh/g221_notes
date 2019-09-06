@@ -1,11 +1,14 @@
 import React from 'react'
-import FormControl from '@material-ui/core/FormControl';
-import TextField from '@material-ui/core/TextField';
-import Link from '@material-ui/core/Link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import FormControl from '@material-ui/core/FormControl'
+import TextField from '@material-ui/core/TextField'
+import Link from '@material-ui/core/Link'
 import Grid from '@material-ui/core/Grid'
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import styled from 'styled-components';
+import Button from '@material-ui/core/Button'
+import Typography from '@material-ui/core/Typography'
+import styled from 'styled-components'
+import routes from '../../routes'
 
 const LoginFormControl = styled(FormControl)`
   position: relative;
@@ -47,9 +50,9 @@ const SpanSeparation = styled.span`
 
 export default function View({handleInputChange, handleLogin}) {
   return (
-    <React.Fragment>
+    <>
       <LoginGithubButton variant="outlined">
-        <i className="fa fa-github" aria-hidden="true"></i> Login with github
+        <FontAwesomeIcon icon={faGithub} /> Login with github
       </LoginGithubButton>
       <HeaderSeparation><SpanSeparation>OR</SpanSeparation></HeaderSeparation>
       <LoginFormControl>
@@ -60,7 +63,7 @@ export default function View({handleInputChange, handleLogin}) {
         <Grid container spacing={2}>
           <Grid item xs={8}>
             <Typography>
-              <Link href="javascript:;">Create new account</Link>
+              <Link href={routes.signup}>Create new account</Link>
             </Typography>
           </Grid>
           <Grid item xs={4}>
@@ -68,6 +71,6 @@ export default function View({handleInputChange, handleLogin}) {
           </Grid>
         </Grid>
       </LoginFormControl>
-    </React.Fragment>
+    </>
   )
 }
