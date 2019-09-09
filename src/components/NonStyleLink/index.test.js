@@ -1,11 +1,12 @@
 import React from 'react'
 import { render } from '@testing-library/react'
+import 'jest-styled-components'
 
-import DummyPage from '../index'
+import NonStyleLink from '../NonStyleLink'
 
-describe('<DummyPage>', () => {
+describe('<NonStyleLink />', () => {
   it('should render and match the snapshot', () => {
-    const { container } = render(<DummyPage />)
+    const { container } = render(<NonStyleLink />)
     expect(container.firstChild).toMatchSnapshot()
   })
 })
